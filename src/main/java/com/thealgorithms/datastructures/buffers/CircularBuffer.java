@@ -130,11 +130,3 @@ public class CircularBuffer<Item> {
         }
     }
 }
-/**
- * The {@code CircularBuffer} class implements a generic circular (or ring) buffer.
- * A circular buffer is a fixed-size data structure that operates in a FIFO (First In, First Out) manner.
- * The buffer allows you to overwrite old data when the buffer is full and efficiently use limited memory.
- * When the buffer is full, adding a new item will overwrite the oldest data.
- *
- * @param <Item> The type of elements stored in the circular buffer.
- */
